@@ -1,0 +1,6 @@
+# Shell script must keep LF line endings or it fails on Linux; Windows scripts keep CRLF.
+gradlew text eol=lf
+*.bat text eol=crlf
+*.png binary
+*.nbt binary
+*.jar binary

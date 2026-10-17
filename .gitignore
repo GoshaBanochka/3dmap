@@ -1,0 +1,17 @@
+# gradle
+.gradle/
+build/
+out/
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+# runs
+run/
+run-data/
+runs/
+# generated
+src/generated/resources/.cache/
+run-gametest/
+run-autotest/
